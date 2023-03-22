@@ -2,36 +2,7 @@
 
 A command-line application written in Python that can be used for scraping information from Likee.
 
-## Installation
-
-### Install with pip
-```
-pip install git+https://github.com/Caff1982/LikeeScraper
-```
-
-### Build from source
-1. Clone repo
-```
-git clone https://github.com/Caff1982/LikeeScraper.git
-```
-2. Move to LikeeScraper directory
-```
-cd LikeeScraper
-```
-3. Install the `build` package (If not already installed)
-```
-pip install build
-```
-4. Start building
-```
-python -m build
-```
-5. Install the built `wheel` file
-```
-pip install dist/*.whl
-```
-#### Note
-> Ensure Firefox browser and Geckodriver are installed to enable Selenium to run [(see here for more info)](https://selenium-python.readthedocs.io/installation.html#drivers)
+No installation required
 
 ## Usage
 

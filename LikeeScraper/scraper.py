@@ -145,3 +145,4 @@ def start_scraper():
             if args.verbose:
                 print('Downloading: ', filepath)
             api.download_video(video_url, filepath)
+start_scraper()
